@@ -1,0 +1,22 @@
+{
+    "name": "qiaozenghao/pro",
+    "description": "pro",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qzh0329",
+            "email": "qzh0329@126.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "rapide/laravel-queue-kafka": "^0.3.0",
+	"nmred/kafka-php": "0.2.*"
+    },
+    "require-dev": {
+        "kwn/php-rdkafka-stubs": "~1.1.0"
+    },
+    "config": {
+    }
+}
